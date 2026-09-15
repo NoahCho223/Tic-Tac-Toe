@@ -7,16 +7,3 @@ Hi editing this from testbranch
 checking out merge conflict in testbranchs
 
 testing merge conflict by editing from web
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-hi
-=======
-testing merge conflict by editing from web
->>>>>>> a33970ed114a941052fa2aa19eff0eb47837f090
