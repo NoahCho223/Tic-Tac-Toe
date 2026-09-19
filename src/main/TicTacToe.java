@@ -30,7 +30,6 @@ public class TicTacToe implements ActionListener {
 		frame.getContentPane().setBackground(new Color(50,50,50));
 		frame.setLayout(new BorderLayout());
 		frame.setTitle("Tic-Tac-Toe");
-		frame.setVisible(true);
 		
 		textfield.setBackground(new Color(25,25,25));
 		textfield.setForeground(new Color(25,255,0));
@@ -57,6 +56,8 @@ public class TicTacToe implements ActionListener {
 		titlePanel.add(textfield);
 		frame.add(titlePanel, BorderLayout.NORTH);
 		frame.add(buttonPanel);
+		
+		frame.setVisible(true);
 		
 		firstTurn();
 	}
